@@ -42,7 +42,6 @@ p {
     display: inline-block;
     left: 50%;
     transform: translateX(-50%);
-    position: absolute;
     bottom: 10px;
 }
 
