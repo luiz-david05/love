@@ -1,0 +1,57 @@
+body {
+    font-family: "Cathylise Janetson", sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: #000;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#assinatura {
+    font-family: "Cathylise Janetson";
+    font-size: 30px;
+}
+
+#back-button {
+    color: #000000;
+    font-family: "Norse";
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #040300;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 10px;
+}
+
+#back-button:hover {
+    background-color: #000000;
+    color: rgb(242, 241, 241);
+}
+
+@font-face {
+    font-family: "Cathylise Janetson";
+    src: url(../resources/Cathylise\ Janetson.otf);
+}

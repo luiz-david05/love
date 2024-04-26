@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h1 {
+    font-size: 2rem;
+    margin: 20px 0 20px 0;
+    letter-spacing: 0.5px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Cute Dino";
+}
+
+.content-container {
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
+
+#note-button img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#note-button img:hover {
+    background-color: #8f0c98;
+}
+
+@font-face {
+    font-family: "Cute Dino";
+    src: url(./resources/Cute\ Dino.otf);
+}
